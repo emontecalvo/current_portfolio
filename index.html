@@ -1,39 +1,156 @@
-<!DOCTYPE html>
-  <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Emily's Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>emily's portfolio</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
 
-  <body>
-      <div class="box_main">
-          <h1>emily monte calvo</h1>
+</head>
+<body>
 
-          <p>
-            <i>web developer</i>
-          </p>
 
-          <div class="navbox">
-            <a href="index.html" class="item -link">home &nbsp &nbsp</a>
-            <a href="projects.html" class="item -link">projects &nbsp &nbsp</a>
-            <a href="about.html" class="item -link">about &nbsp &nbsp</a>
-            <a href="contact.html" class="item -link">contact &nbsp &nbsp</a>
-          </div>
 
-          <br />
-
-          <a href="https://github.com/emontecalvo">
-            <img src="github.png" />
-          </a>
-
-          <a href="https://www.linkedin.com/in/emily-monte-calvo-213b2667">
-            <img src="linkedin2.png" />
-          </a>
-
+  <section id="home_section">
+    <div class="box_main">
+      <h1>emily monte calvo</h1>
+      <p><i>web developer</i></p>
+      <div class="navbox">
+        <a class="home" href="#home_section">home &nbsp; &nbsp;</a>
+        <a class="about">about &nbsp; &nbsp;</a>
+        <a class="contact" href="#contact_section">contact &nbsp; &nbsp;</a>
+        <a class="projects" href="#project_section">projects &nbsp; &nbsp;</a>
       </div>
-  </body>
+      <br>
+      <a href="https://github.com/emontecalvo"><img src="github.png"></a> <a href="https://www.linkedin.com/in/emily-monte-calvo-213b2667"><img src="linkedin2.png"></a>
+    </div>
+  </section>
+
+
+  <section id="about_section">
+    <div class="box_main">
+      <h1>about</h1>
+      <div class="navbox">
+        <a class="home" href="#home_section">home &nbsp; &nbsp;</a>
+        <a class="about">about &nbsp; &nbsp;</a>
+        <a class="contact" href="#contact_section">contact &nbsp; &nbsp;</a>
+        <a class="projects" href="#project_section">projects &nbsp; &nbsp;</a>
+      </div>
+      <p>I may or may not have spent my childhood dreaming of becoming the world’s first CIA-agent / marine-biologist / photographer / ballerina.</p>
+      <p>When I discovered programming I found the occupation and calling that truly lets me create anything and do everything.</p>
+      <p>Code may boil down to ones and zeros, but from there you can springboard to anything the heart can dream of.</p>
+      <p>In addition to web development, my experience includes UX, logo and icon design, wireframe creation for apps and UI styling for game-play in Unity.</p><br>
+      <p class="textup">programming languages:</p>
+      <p><em>first love:</em> ruby &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <em>others:</em> javascript</p><br>
+      <p class="textup">skills & frameworks:</p>
+      <p>html, css, node.js, react.js, redux, phaser</p>
+      <p>responsive design, user-experience, game design, icon-design</p><br>
+      <p class="textup">tools:</p>
+      <p>webpack, github, bitbucket, sourcetree, sketch, balsamiq</p><br>
+      <p class="textup">currently studying:</p>
+      <p>postgreSQL, mongodb</p><br>
+    </div>
+  </section>
+
+
+  <section id="contact_section">
+    <div class="box_contact">
+      <h1>contact info</h1>
+      <div class="navbox">
+        <a class="home" href="#home_section">home &nbsp; &nbsp;</a>
+        <a class="about">about &nbsp; &nbsp;</a>
+        <a class="contact" href="#contact_section">contact &nbsp; &nbsp;</a>
+        <a class="projects" href="#project_section">projects &nbsp; &nbsp;</a>
+      </div>
+      <p>emilymontecalvo@gmail.com</p><a href="https://github.com/emontecalvo"><img src="github2.png"></a> <a href="https://www.linkedin.com/in/emily-monte-calvo-213b2667"><img src="linkedin3.png"></a>
+    </div>
+  </section>
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <section id="project_section">
+    <div class="wrapper">
+      <div class="box">
+        <!-- TITLE -->
+        <div class="title">
+          <h1>projects</h1>
+      <div class="navbox">
+        <a class="home" href="#home_section">home &nbsp; &nbsp;</a>
+        <a class="about">about &nbsp; &nbsp;</a>
+        <a class="contact" href="#contact_section">contact &nbsp; &nbsp;</a>
+        <a class="projects" href="#project_section">projects &nbsp; &nbsp;</a>
+      </div>
+        </div>
+
+
+
+        <!-- CHESS PROJECT -->
+        <div class="chess">
+          <h6>chess</h6>
+          <div class="project_links">
+            <a href="https://github.com/emontecalvo/chess"><img src="chess.png"></a>
+          </div>
+          <div class="project_desc">
+            <p>Chess....an oldschool console game</p>
+            <p>Chess was built using: the quirky language known as ruby.</p>
+          </div>
+        </div><!-- MONDO PROJECT-->
+
+
+        <div class="mondo_github">
+          <h6>mondo is phat:</h6>
+          <div class="project_links">
+            <a href="https://github.com/emontecalvo/mondo"><img src="mondo.png"></a>
+          </div>
+          <div class="project_desc">
+            <p>Mondo is Phat is a relaxing game in which Mondo eats his way towards vengeance.</p>
+            <p>Mondo is Phat was built using: Phaser, JavaScript, HTML, CSS, IntelXDK and Cordova.</p><a href="https://play.google.com/store/apps/details?id=com.illudiumphosdex.mondo&hl=en">
+            <p><strong>see the mondo Android app!</strong></p>
+            </a>
+          </div>
+        </div>
+        <!--   CHAOS FROLIC WEBSITE -->
+        <div class="chaos_frolic">
+          <h6>chaos frolic</h6>
+          <div class="project_links">
+            <a href="http://chaosfrolic.s3-website-us-west-1.amazonaws.com/"><img src="chaosfrolic.png"></a>
+          </div>
+          <div class="project_desc">
+            <p>My favorite logo creation for the archemedic tech collective</p>
+            <p>Chaos Frolic was built using: HTML and CSS</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+
+
+
+
+
+
+  <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+<script type="text/javascript" src="logic.js"></script>
+
+
+</body>
 </html>

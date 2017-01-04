@@ -41,10 +41,15 @@ p {
     width: 90%;
 }
 
+section {
+  height: 100%;
+}
+
 .box {
   background-color: rgba(0,0,0,0.10);
   padding: 20px;
   width: 50%;
+  /*height: 100%;*/
   text-align: center;
   float: left;
 }
@@ -53,6 +58,7 @@ p {
   background-color: rgba(0,0,0,0.10);
   padding: 20px;
   width: 50%;
+  /*height: 100%;*/
   margin: 15% auto;
   text-align: center;
 }
@@ -61,6 +67,7 @@ p {
   background-color: rgba(0,0,0,0.10);
   padding: 20px;
   width: 50%;
+  /*height: 100%;*/
   margin: 15% auto;
   text-align: center;
 }
