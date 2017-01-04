@@ -27,6 +27,10 @@ h6 {
   font-size: 25px;
 }
 
+.emailtext {
+  font-size: 17px;
+}
+
 p {
   color: white;
   font-weight: 200;
@@ -41,7 +45,7 @@ p {
     width: 90%;
 }
 
-section {
+#home_section {
   height: 100%;
 }
 
@@ -119,6 +123,10 @@ a:visited {
   color: white;
   text-decoration: none;
   font-weight: 300;
+}
+
+a {
+  color: white;
 }
 
 
