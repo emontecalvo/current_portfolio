@@ -5,9 +5,10 @@ body {
     -o-background-size: cover;
     background-size: cover;
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    letter-spacing: 1.5px;
 }
 
-h1 {
+h1, h2 {
   color: white;
   font-weight: 100;
   font-size: 40px;
@@ -21,14 +22,8 @@ h6 {
   margin: 20px;
 }
 
-.textup {
-  color: white;
-  font-weight: 100;
-  font-size: 25px;
-}
-
 .emailtext {
-  font-size: 17px;
+  font-size: 13px;
 }
 
 p {
@@ -37,15 +32,7 @@ p {
   font-size: 1.25em;
 }
 
-.wrapper {
-    background-color: rgba(0,0,0,0.10);
-    margin-left: 25%;
-    margin-top: 10%;
-    /*margin: 100px auto;*/
-    width: 90%;
-}
-
-#home_section {
+#home_section, #about_section {
   height: 100%;
 }
 
@@ -53,7 +40,6 @@ p {
   background-color: rgba(0,0,0,0.10);
   padding: 20px;
   width: 50%;
-  /*height: 100%;*/
   text-align: center;
   float: left;
 }
@@ -62,7 +48,6 @@ p {
   background-color: rgba(0,0,0,0.10);
   padding: 20px;
   width: 50%;
-  /*height: 100%;*/
   margin: 15% auto;
   text-align: center;
 }
@@ -71,7 +56,6 @@ p {
   background-color: rgba(0,0,0,0.10);
   padding: 20px;
   width: 50%;
-  /*height: 100%;*/
   margin: 15% auto;
   text-align: center;
 }
@@ -85,48 +69,33 @@ p {
   text-align: center;
 }
 
-
-.chess, .mondo_github, .mondo_playstore, .chaos_frolic {
-  float: left;
-  text-align: center;
-}
-
-.title {
-  float: top;
-}
-
-.project_links {
-  float: left;
-}
-
-.project_desc {
-  padding-right: 10px;
-}
-
 a:link {
   color: white;
   text-decoration: none;
-    font-weight: 300;
+  font-weight: 100;
 }
 
 a:active {
   color: white;
-  text-decoration: underline;
+  font-weight: 100;
 }
 
 a:hover {
   color: white;
-  font-weight: 300;
+  font-weight: 100;
+  cursor: pointer;
 }
 
 a:visited {
   color: white;
   text-decoration: none;
-  font-weight: 300;
+  font-weight: 100;
 }
 
 a {
   color: white;
+  font-weight: 200;
+  font-size: 1.25em;
 }
 
 
