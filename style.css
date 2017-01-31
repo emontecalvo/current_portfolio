@@ -1,5 +1,5 @@
 body {
-  background: url('images/santamonica.jpg') no-repeat center center fixed;
+  background: url('images/fractal2_back.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -21,10 +21,6 @@ h6 {
   font-size: 25px;
   margin: 20px;
 }
-/*
-.emailtext {
-  font-size: 15px;
-}*/
 
 p {
   color: white;
@@ -45,7 +41,7 @@ p {
 }
 
 .box_main {
-  background-color: rgba(0,0,0,0.10);
+  background-color: rgba(0,0,0,0.5);
   padding: 20px;
   width: 75%;
   margin: 15% auto;
@@ -102,7 +98,6 @@ a {
 
 @media screen and (max-width: 500px) {
   .box_main {
-    background-color: transparent;
     font-size: 1em;
   }
 
