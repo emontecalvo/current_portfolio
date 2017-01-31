@@ -10,4 +10,8 @@ $( document ).ready(function() {
 	$('.projects').on('click', function() {
 		$("html, body").animate({ scrollTop: $('#project_section').offset().top }, 2000);
 	})
+
+	$('.ux_projects').on('click', function() {
+		$("html, body").animate({ scrollTop: $('#ux_project_section').offset().top }, 2000);
+	})
 });
