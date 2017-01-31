@@ -40,9 +40,6 @@ p {
   float: left;
 }
 
-
-
-
 .box_main {
   background-color: rgba(0,0,0,0.5);
   padding: 20px;
@@ -101,6 +98,101 @@ section {
   overflow: hidden;
 }
 
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  text-align: center;
+    background-color: rgba(227, 168, 255, 0.9);
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close,
+.close2,
+.close3,
+.close4,
+.close5 {
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus,
+.close2:hover,
+.close2:focus,
+.close3:hover,
+.close3:focus,
+.close4:hover,
+.close4:focus,
+.close5:hover,
+.close5:focus {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.popup {
+  width: 25%;
+  border: 15px solid #CC96F8;
+  border-radius: 10px;
+  transition: border 0.5s ease;
+  margin: 10%;
+  background-color: #CC96F8;
+/*/*  box-shadow: 0 0 0 10px blue inset;*/
+  /*box-shadow: 10px 10px 10px orange inset; */
+}
+
+.popup2 {
+  width: 100%;
+  border: 15px solid #CC96F8;
+  border-radius: 10px;
+  transition: border 0.5s ease;
+  margin: 5%;
+  background-color: #CC96F8;
+}
+
+.popup:hover {
+  border: 20px solid #A647F2;
+  cursor: pointer;
+}
+.popup2:hover {
+  border: 20px solid #A647F2;
+  cursor: pointer;
+}
+
+.popup img {
+    width: 100%;
+    border-radius: 2px;
+}
+
+.popup2 img {
+    width: 100%;
+    border-radius: 2px;
+}
+
+.inner_modal img {
+  width: 50%;
+}
+
+.beTogether {
+  display: inline-flex;
+}
+
+
+
 
 @media screen and (max-width: 500px) {
   .box_main {
@@ -119,15 +211,11 @@ section {
     font-size: 13px;
   }
 
+  .modal-content {
+    background-color: rgba(227, 168, 255, 1.0);
+  }
+
 }
-
-
-
-
-
-
-
-
 
 
 
