@@ -112,10 +112,12 @@ section {
 /* Modal Content/Box */
 .modal-content {
   text-align: center;
-    background-color: rgba(227, 168, 255, 0.9);
+    /*background-color: rgba(227, 168, 255, 0.9);*/
+    background-color: rgba(0,0,0,0.9);
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
-    border: 1px solid #888;
+    border: 3px solid #CC96F8;
+    border-radius: 10px;
     width: 50%; /* Could be more or less, depending on screen size */
 }
 
@@ -146,7 +148,7 @@ section {
 
 .popup {
   width: 25%;
-  border: 15px solid #CC96F8;
+  border: 5px solid #CC96F8;
   border-radius: 10px;
   transition: border 0.5s ease;
   margin: 10%;
@@ -157,7 +159,7 @@ section {
 
 .popup2 {
   width: 100%;
-  border: 15px solid #CC96F8;
+  border: 5px solid #CC96F8;
   border-radius: 10px;
   transition: border 0.5s ease;
   margin: 5%;
@@ -165,11 +167,9 @@ section {
 }
 
 .popup:hover {
-  border: 20px solid #A647F2;
   cursor: pointer;
 }
 .popup2:hover {
-  border: 20px solid #A647F2;
   cursor: pointer;
 }
 
@@ -191,7 +191,12 @@ section {
   display: inline-flex;
 }
 
-
+.home,
+.about,
+.projects,
+.ux_projects {
+  color: #CC96F8;
+}
 
 
 @media screen and (max-width: 500px) {
@@ -212,7 +217,7 @@ section {
   }
 
   .modal-content {
-    background-color: rgba(227, 168, 255, 1.0);
+    /*background-color: rgba(227, 168, 255, 1.0);*/
   }
 
 }
