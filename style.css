@@ -66,8 +66,9 @@ p {
 }
 
 .about_text {
-  max-width: 50%;
-  margin-left: 25%;
+  max-width: 70%;
+  margin-left: 15%;
+  text-align: left;
 }
 
 
@@ -84,14 +85,7 @@ a:active {
 
 a:hover {
   color: white;
-  font-weight: 100;
   cursor: pointer;
-}
-
-a:visited {
-  color: white;
-  text-decoration: none;
-  font-weight: 100;
 }
 
 a {
@@ -102,6 +96,10 @@ a {
 
 section {
   overflow: hidden;
+}
+
+.inner_modal img {
+  padding-bottom: 20px;
 }
 
 .modal {
@@ -225,8 +223,8 @@ section {
     font-size: 30px;
   }
 
-  .ux_img, .web_img {
-    width: 50%;
+  .inner_modal img {
+    width: 100%;
   }
 
   .emailtext {
