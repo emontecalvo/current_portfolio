@@ -65,6 +65,12 @@ p {
   text-align: center;
 }
 
+.about_text {
+  max-width: 50%;
+  margin-left: 25%;
+}
+
+
 a:link {
   color: white;
   text-decoration: none;
@@ -112,10 +118,9 @@ section {
 /* Modal Content/Box */
 .modal-content {
   text-align: center;
-    /*background-color: rgba(227, 168, 255, 0.9);*/
     background-color: rgba(0,0,0,0.9);
     margin: 15% auto; /* 15% from the top and centered */
-    padding: 20px;
+    padding: 10%;
     border: 3px solid #CC96F8;
     border-radius: 10px;
     width: 50%; /* Could be more or less, depending on screen size */
@@ -198,6 +203,18 @@ section {
   color: #CC96F8;
 }
 
+@media screen and (max-width: 800px) {
+  .beTogether {
+    display: block;
+  }
+
+  .popup, .popup2 {
+    width: 85%;
+    margin-left: 5%;
+  }
+
+}
+
 
 @media screen and (max-width: 500px) {
   .box_main {
@@ -216,8 +233,18 @@ section {
     font-size: 13px;
   }
 
-  .modal-content {
-    /*background-color: rgba(227, 168, 255, 1.0);*/
+  .about_text {
+    max-width: 100%;
+    margin-left: 0;
+  }
+
+  .beTogether {
+    display: block;
+  }
+
+  .popup, .popup2 {
+    width: 85%;
+    margin-left: 5%;
   }
 
 }
