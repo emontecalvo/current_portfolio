@@ -40,6 +40,12 @@ p {
   height: 100%;
 }
 
+.emailtext:hover,
+.fa-github:hover,
+.fa-linkedin-square:hover {
+  color: #CC96F8;
+}
+
 .box {
   background-color: rgba(0,0,0,0.10);
   padding: 20px;
