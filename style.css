@@ -143,10 +143,14 @@ section {
 .close2,
 .close3,
 .close4,
-.close5 {
+.close5,
+.close6,
+.close7,
+.close8 {
     float: right;
     font-size: 28px;
     font-weight: bold;
+    color: white;
 }
 
 .close:hover,
@@ -158,7 +162,13 @@ section {
 .close4:hover,
 .close4:focus,
 .close5:hover,
-.close5:focus {
+.close5:focus,
+.close6:hover,
+.close6:focus,
+.close7:hover,
+.close7:focus,
+.close8:hover,
+.close8:focus {
     text-decoration: none;
     cursor: pointer;
 }
@@ -202,12 +212,12 @@ section {
   width: 50%;
 }
 
-.beTogether {
+.beTogether, .beTogether2 {
   display: inline-flex;
 }
 
 @media screen and (max-width: 800px) {
-  .beTogether {
+  .beTogether, .beTogether2 {
     display: block;
   }
 
@@ -241,7 +251,7 @@ section {
     margin-left: 0;
   }
 
-  .beTogether {
+  .beTogether, .beTogether2 {
     display: block;
   }
 
