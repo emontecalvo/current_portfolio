@@ -85,6 +85,10 @@ p {
   text-align: left;
 }
 
+#project_section2 {
+  margin-top: -30%;
+}
+
 
 a:link {
   color: white;
@@ -143,14 +147,10 @@ section {
 .close2,
 .close3,
 .close4,
-.close5,
-.close6,
-.close7,
-.close8 {
+.close5 {
     float: right;
     font-size: 28px;
     font-weight: bold;
-    color: white;
 }
 
 .close:hover,
@@ -162,13 +162,7 @@ section {
 .close4:hover,
 .close4:focus,
 .close5:hover,
-.close5:focus,
-.close6:hover,
-.close6:focus,
-.close7:hover,
-.close7:focus,
-.close8:hover,
-.close8:focus {
+.close5:focus {
     text-decoration: none;
     cursor: pointer;
 }
@@ -212,12 +206,12 @@ section {
   width: 50%;
 }
 
-.beTogether, .beTogether2 {
+.beTogether {
   display: inline-flex;
 }
 
 @media screen and (max-width: 800px) {
-  .beTogether, .beTogether2 {
+  .beTogether {
     display: block;
   }
 
@@ -251,7 +245,7 @@ section {
     margin-left: 0;
   }
 
-  .beTogether, .beTogether2 {
+  .beTogether {
     display: block;
   }
 
