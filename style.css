@@ -85,9 +85,9 @@ p {
   text-align: left;
 }
 
-#project_section2 {
+/*#project_section2 {
   margin-top: -30%;
-}
+}*/
 
 
 a:link {
@@ -181,7 +181,7 @@ section {
   border: 5px solid #CC96F8;
   border-radius: 10px;
   transition: border 0.5s ease;
-  margin: 5%;
+  margin: 1%;
   background-color: #CC96F8;
 }
 
@@ -216,8 +216,8 @@ section {
   }
 
   .popup, .popup2 {
-    width: 85%;
-    margin-left: 5%;
+    width: 60%;
+    margin-left: 20%;
   }
 
 }
