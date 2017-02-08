@@ -146,11 +146,13 @@ section {
 .close,
 .close2,
 .close3,
-.close4,
-.close5 {
+.close5,
+.close6,
+.close7 {
     float: right;
     font-size: 28px;
     font-weight: bold;
+    color: white;
 }
 
 .close:hover,
@@ -159,10 +161,12 @@ section {
 .close2:focus,
 .close3:hover,
 .close3:focus,
-.close4:hover,
-.close4:focus,
 .close5:hover,
-.close5:focus {
+.close5:focus,
+.close6:hover,
+.close6:focus,
+.close7:hover,
+.close7:focus {
     text-decoration: none;
     cursor: pointer;
 }
