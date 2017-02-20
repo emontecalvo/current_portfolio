@@ -42,7 +42,8 @@ p {
 
 .emailtext:hover,
 .fa-github:hover,
-.fa-linkedin-square:hover {
+.fa-linkedin-square:hover,
+.fa-laptop:hover {
   color: #CC96F8;
 }
 
