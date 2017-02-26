@@ -216,6 +216,10 @@ section {
   display: inline-flex;
 }
 
+.popup {
+  margin-left: 13%;
+}
+
 @media screen and (max-width: 800px) {
   .beTogether {
     display: block;
@@ -269,8 +273,6 @@ section {
   }
 
 }
-
-
 
 
 
