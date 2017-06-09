@@ -28,6 +28,14 @@ p {
   font-size: 1.25em;
 }
 
+/*.imgWord {
+  visibility: hidden;
+}
+
+.imgWord: hover {
+  visibility: visible;
+}*/
+
 .home,
 .about,
 .projects,
