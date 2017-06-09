@@ -28,13 +28,51 @@ p {
   font-size: 1.25em;
 }
 
-/*.imgWord {
-  visibility: hidden;
+/* * * * * * * * * */
+/* TEXT POPUP IN IMAGE - requires .popup2 position: relative */
+/* * * * * * * * * */
+
+.imgWord {
+  display: none;
+  font-weight: 400;
+  font-size: 1em;
 }
 
-.imgWord: hover {
-  visibility: visible;
-}*/
+.popup2 .square_icon img {
+  text-align: center;
+}
+
+.popup .square_icon img {
+  text-align: center;
+}
+
+span.imgWord {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 60px;
+}
+
+.popup2:hover .imgWord {
+  display: block;
+}
+
+.popup2:hover .square_icon {
+  opacity: 0.1;
+}
+
+.popup:hover .square_icon {
+  opacity: 0.1;
+}
+
+
+.popup:hover .imgWord {
+  display: block;
+}
+/* * * * * * * * * */
+/* end up text popup css */
+/* * * * * * * * * */
 
 .home,
 .about,
@@ -188,6 +226,7 @@ section {
   transition: border 0.5s ease;
   margin: 10%;
   background-color: #CC96F8;
+  position: relative;
 }
 
 .popup2 {
@@ -197,6 +236,7 @@ section {
   transition: border 0.5s ease;
   margin: 1%;
   background-color: #CC96F8;
+  position: relative;
 }
 
 .popup:hover {
@@ -236,6 +276,10 @@ section {
   .popup, .popup2 {
     width: 60%;
     margin-left: 20%;
+  }
+
+  .imgWord {
+    font-size: .8em;
   }
 
 }
@@ -279,6 +323,14 @@ section {
     font-size: 20px;
     padding: 15px 5px;
   }
+
+  .imgWord {
+    font-size: .4em;
+  }
+
+  span.imgWord {
+    top: 20px;
+}
 
 }
 
