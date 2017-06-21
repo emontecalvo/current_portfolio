@@ -60,10 +60,12 @@ span.imgWord {
 
 .popup2:hover .square_icon {
   opacity: 0.1;
+  transition: opacity 1s ease;
 }
 
 .popup:hover .square_icon {
   opacity: 0.1;
+  transition: opacity 1s ease;
 }
 
 
