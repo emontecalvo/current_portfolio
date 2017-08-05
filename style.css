@@ -312,7 +312,12 @@ ul .res-list-title {
   letter-spacing: 5px;
 }
 
-
+.emc-logo {
+  position: absolute;
+  margin: 3%;
+  top: 0;
+  right: 0;
+}
 
 
 
@@ -362,6 +367,15 @@ ul .res-list-title {
 
   .project-chunk {
     display: block;
+  }
+
+  .emc-logo {
+    margin: 1%;
+  }
+
+  .emc-logo img {
+    max-width: 60%;
+    height: auto;
   }
 }
 
@@ -453,6 +467,11 @@ ul .res-list-title {
 
   .project-text {
     width: 100%;
+  }
+
+  .emc-logo img {
+    max-width: 45%;
+    height: auto;
   }
 
 }
