@@ -1,29 +1,32 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+
 body {
-  background: url('images/fractal2_back.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    font-family: 'Helvetica Neue', Helvetica, sans-serif;
-    letter-spacing: 1.5px;
+  background-color: white;
+/*  background-size: cover;*/
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  letter-spacing: 1.5px;
 }
 
 h1, h2 {
-  color: white;
+  color: black;
   font-weight: 100;
   font-size: 40px;
   margin: 0px;
 }
 
 h6 {
-  color: white;
+  color: black;
   font-weight: 100;
   font-size: 25px;
   margin: 20px;
 }
 
 p {
-  color: white;
+  color: black;
   font-weight: 200;
   font-size: 1.25em;
 }
@@ -39,10 +42,6 @@ p {
 }
 
 .popup2 .square_icon img {
-  text-align: center;
-}
-
-.popup .square_icon img {
   text-align: center;
 }
 
@@ -63,15 +62,7 @@ span.imgWord {
   transition: opacity 1s ease;
 }
 
-.popup:hover .square_icon {
-  opacity: 0.1;
-  transition: opacity 1s ease;
-}
 
-
-.popup:hover .imgWord {
-  display: block;
-}
 /* * * * * * * * * */
 /* end up text popup css */
 /* * * * * * * * * */
@@ -84,61 +75,27 @@ span.imgWord {
   padding: 20px;
 }
 
-#home_section, #about_section {
-  height: 100%;
-}
+
 
 .emailtext:hover,
 .fa-github:hover,
+.fa-android:hover,
 .fa-linkedin-square:hover,
 .fa-laptop:hover {
-  color: #CC96F8;
+  color: #38FAD8;
 }
 
-.box {
-  background-color: rgba(0,0,0,0.10);
-  padding: 20px;
-  width: 50%;
-  text-align: center;
-  float: left;
-}
 
 .box_main {
-  background-color: rgba(0,0,0,0.5);
-  padding: 20px;
-  width: 75%;
-  margin: 15% auto;
-  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  margin-left: 5%;
 }
 
-.box_contact {
-  background-color: rgba(0,0,0,0.10);
-  padding: 20px;
-  width: 50%;
-  margin: 15% auto;
-  text-align: center;
+.box_main2 {
+  margin-top: 5%;
+  margin-left: 5%;
 }
-
-.navbox{
-  background-color: rgba(0,0,0,0.10);
-  padding: 20px;
-  width: 75%;
-  margin: 100px auto;
-  margin: 10px auto;
-  text-align: center;
-}
-
-.about_text {
-  max-width: 70%;
-  margin-left: 15%;
-  text-align: left;
-  font-size: 0.75em;
-}
-
-/*#project_section2 {
-  margin-top: -30%;
-}*/
-
 
 a:link {
   color: white;
@@ -147,17 +104,17 @@ a:link {
 }
 
 a:active {
-  color: white;
+  color: #38FAD8;
   font-weight: 100;
 }
 
 a:hover {
-  color: white;
+  color: #38FAD8;
   cursor: pointer;
 }
 
 a {
-  color: white;
+  color: rgba(0,0,0,0.5);;
   font-weight: 200;
   font-size: 1.25em;
 }
@@ -166,96 +123,43 @@ section {
   overflow: hidden;
 }
 
-.inner_modal img {
-  padding-bottom: 20px;
-}
-
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-}
-
-/* Modal Content/Box */
-.modal-content {
-  text-align: center;
-    background-color: rgba(0,0,0,0.9);
-    margin: 15% auto; /* 15% from the top and centered */
-    padding: 10%;
-    border: 3px solid #CC96F8;
-    border-radius: 10px;
-    width: 50%; /* Could be more or less, depending on screen size */
-}
-
-/* The Close Button */
-.close,
-.close2,
-.close3,
-.close5,
-.close6,
-.close7 {
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-    color: white;
-}
-
-.close:hover,
-.close:focus,
-.close2:hover,
-.close2:focus,
-.close3:hover,
-.close3:focus,
-.close5:hover,
-.close5:focus,
-.close6:hover,
-.close6:focus,
-.close7:hover,
-.close7:focus {
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.popup {
-  width: 25%;
-  border: 5px solid #CC96F8;
-  border-radius: 10px;
-  transition: border 0.5s ease;
-  margin: 10%;
-  background-color: #CC96F8;
-  position: relative;
+.singleProject {
+/*  background-color: orange;*/
 }
 
 .popup2 {
-  width: 100%;
-  border: 5px solid #CC96F8;
-  border-radius: 10px;
-  transition: border 0.5s ease;
-  margin: 1%;
-  background-color: #CC96F8;
+  max-width: 80%;
+  border-radius: 4px;
+  padding: 1%;
+  background: linear-gradient(to bottom right,#38FAD8,#0951EB);
+  z-index: 2;
   position: relative;
+  margin-left: 10%;
+  margin-bottom: 10%;
+  margin-top: 10%;
+  transition: all 0.3s ease-in-out;
 }
 
-.popup:hover {
-  cursor: pointer;
-}
+
+
+
 .popup2:hover {
+  background: linear-gradient(to bottom right,#B0C7F9,#1F22C0);
   cursor: pointer;
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
 }
 
-.popup img {
-    width: 100%;
-    border-radius: 2px;
-}
 
 .popup2 img {
-    width: 100%;
-    border-radius: 2px;
+  max-width: 100%;
+  height: auto;
+  transition: all 1s ease-in-out;
+  opacity: 0.3;
+}
+
+.popup2 img:hover {
+  opacity: 0.5;
 }
 
 .inner_modal img {
@@ -266,16 +170,176 @@ section {
   display: inline-flex;
 }
 
-.popup {
-  margin-left: 13%;
+
+
+.content {
+ /* min-height: calc(100vh - 300px);*/ /*min-height calc for the sticky-footer*/
 }
 
-@media screen and (max-width: 800px) {
+footer {
+  margin-top: 300px;
+  width: 100%;
+  display: inline-flex;
+  height: 400px;
+  background: linear-gradient(to bottom,#0951EB,#a577ef);
+}
+
+footer a {
+  color: white;
+}
+
+footer p {
+  color: white;
+}
+
+
+.contact {
+  width: 50%;
+  padding-left: 10%;
+}
+
+.footer-links {
+  width: 50%;
+  color: white;
+  padding-left: 10%;
+}
+
+.about-content {
+  display: inline-flex;
+}
+
+.about-pic img {
+  max-width: 100%;
+  height: auto;
+}
+
+.about-text {
+  margin: 5%;
+}
+
+.about-pic {
+  margin: 5%;
+}
+
+.resume-content {
+  margin: 5%;
+}
+
+ul {
+  margin-left: 2%;
+}
+
+ul .res-list-title {
+  font-weight: bolder;
+  margin-bottom: 2px;
+  font-size: 0.9em;
+  letter-spacing: 5px;
+  margin-left: -2%;
+  list-style: none;
+}
+
+.resume-fa {
+  color: #38FAD8;
+}
+
+.resume-btn {
+  width: 30%;
+  height: 40px;
+  background: linear-gradient(to bottom, #38FAD8, #0951EB);
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  font-size: 0.9em;
+  font-style: bolder;
+  letter-spacing: 3px;
+}
+
+.mondo-content {
+  margin: 5%;
+}
+
+.project-chunk {
+  display: inline-flex;
+  margin: 5%;
+}
+
+.project-text {
+  font-size: 1.2em;
+  min-width: 50%;
+}
+
+.project-img {
+  width: 50%;
+}
+
+.project-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.project-summary {
+  margin: 5%;
+  background-color: #0951EB;
+  padding: 2%;
+}
+
+.project-summary p {
+  margin-left: 5%;
+  color: white;
+}
+
+.project-summary i {
+  color: white;
+  margin-left: 5%
+}
+
+.project-summary a {
+  color: white;
+}
+
+.project-summary a:hover {
+  color: #38FAD8;
+}
+
+.mondoh2 {
+  text-align: center;
+}
+
+
+.project-text-title {
+  font-weight: bolder;
+  font-size: 1.1em;
+  letter-spacing: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1700px) {
+  footer {
+    margin-top: 150px;
+  }
+
+}
+
+@media screen and (max-width: 1250px) {
+  footer {
+    margin-top: 400px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
   .beTogether {
     display: block;
   }
 
-  .popup, .popup2 {
+  .popup2 {
     width: 60%;
     margin-left: 20%;
   }
@@ -284,7 +348,32 @@ section {
     font-size: .8em;
   }
 
+  .about-content {
+    display: inline-block;
+  }
+
+  .emailtext {
+    font-size: 18px;
+  }
+
+  footer {
+    margin-top: 300px;
+  }
+
+  .project-chunk {
+    display: block;
+  }
 }
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width: 500px) {
@@ -313,7 +402,7 @@ section {
     display: block;
   }
 
-  .popup, .popup2 {
+  .popup2 {
     width: 85%;
     margin-left: 5%;
   }
@@ -332,8 +421,71 @@ section {
 
   span.imgWord {
     top: 20px;
+  }
+
+  footer {
+/*    display: inline-block;*/
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 100px;
+  }
+
+  .contact {
+    width: 100%;
+  }
+
+  .footer-links {
+    width: 100%;
+  }
+
+  .resume-btn {
+    width: 80%;
+    font-size: 0.7em;
+  }
+
+  .project-chunk {
+    display: block;
+  }
+
+  .project-img {
+  width: 100%;
+  }
+
+  .project-text {
+    width: 100%;
+  }
+
 }
 
+@media screen and (max-width: 200px) {
+  .about-content img {
+    max-width: 80%;
+    margin-left: 10%;
+  }
+
+  .about-content {
+    font-size: 0.8em
+  }
+
+  .about-pic {
+    max-width: 140px;
+  }
+
+  .about-text {
+    max-width: 140px;
+  }
+
+  .project-summary p {
+    font-size: 0.9em;
+  }
+
+  .project-text-title {
+    font-size: 0.7em;
+  }
+
+  .project-text {
+    font-size: 0.8em;
+  }
 }
 
 

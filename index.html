@@ -6,14 +6,6 @@
  <meta name="description" content="Emily's Portfolio">
  <meta name="author" content="Emily Monte Calvo">
 
- <meta property="og:locale" content="en_US" />
- <meta property="og:type" content="website" />
- <meta property="og:title" content="site title"/>
- <meta property="og:description" content="site description"/>
- <meta property="og:image" content="http://emilymontecalvo.com/headline_img.png">
- <meta property="og:image:width" content="500" />
- <meta property="og:image:height" content="400" />
-
   <title>Emily's Portfolio</title>
   <link href="style.css" rel="stylesheet" type="text/css">
   <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
@@ -21,230 +13,73 @@
 
 </head>
 <body>
-  <section id="home_section">
-    <div class="box_main">
-      <h1>emily monte calvo</h1>
-      <p>ux / ui engineer </p>
-      <p>oakland, california</p>
-      <div class="navbox">
-        <a class="home">home</a>
-        <a class="about">about me</a>
-        <a class="projects">develop</a>
-        <a class="ux_projects">design</a>
+
+  <div class="content">
+    <section id="home_section">
+      <div class="box_main">
+        <h1><strong>emily monte calvo </strong>| ux-ui <img src="./images/emc.png" /></h1>
       </div>
-      <br>
+    </section>
+
+
+
+    <section id="experiment">
+
+      <div class="beTogether">
+        
+        <div class="singleProject">
+          <div class="popup2">
+              <a href="./mondo.html"><img class="square_icon" src="images/mondo-square.png" alt="image of Mondo"></a>
+              <span class="imgWord"><span>Android Game: Mondo is Phat<span></span>
+          </div>
+        </div>
+
+
+        <div class="singleProject">
+          <div class="popup2">
+              <a href="./dailyui.html"><img class="square_icon" src="images/dailyui-square.png" alt="image of Daily UI"></a>
+              <span class="imgWord"><span>Daily UI<span></span>
+          </div>
+        </div>
+
+
+
+
+        <div class="singleProject">
+          <div class="popup2">
+              <a href="./breakr.html"><img class="square_icon" src="images/breakr-square.png" alt="wireframe image of Breakr"></a>
+              <span class="imgWord"><span>Website: Breakr<span></span>
+          </div>
+        </div>
+
+
+        <div class="singleProject">
+          <div class="popup2">
+              <a href="./poma.html"><img class="square_icon" src="images/poma-square.png" alt="image of Poma"></a>
+              <span class="imgWord"><span>App: Poma<span></span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+  <footer>
+    <div class="contact">
+      <p>GET IN TOUCH.</p>
       <p><a href="mailto:emilymontecalvo@gmail.com" class="emailtext">emilymontecalvo@gmail.com</a></p><a href="https://github.com/emontecalvo" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i> </a> <a href="https://www.linkedin.com/in/emily-monte-calvo-213b2667" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
     </div>
-  </section>
-
-
-
-  <section id="about_section">
-    <div class="box_main">
-      <h2>about me</h2>
-      <div class="navbox">
-        <a class="home">home</a>
-        <a class="about">about me</a>
-        <a class="projects">develop</a>
-        <a class="ux_projects">design</a>
-      </div>
-      <div class="about_text">
-        <p>When I discovered UI and UX engineering - design <em>and </em> code - I found the calling that lets me create anything and do everything.</p>
-        <p>My experience includes UX, web development, logo and icon design, wireframe/mockup/prototype creation, UI styling in React and Unity 3D and level design for games.</p>
-        <p>Favorite games:  Factorio, Terraria, Monument Valley, Kingdom Rush: Frontiers</p>
-        <p>Top Skills:  UX/UI, Unity, React, JavaScript, Ruby, C#, HTML, CSS
-      </div>
+    <div class="footer-links">
+      <p><a href="./index.html"><span style="text-decoration: underline;">Home</span></a></p>
+      <p><a href="./about.html">About Me</a></p>
+      <p><a href="./resume.html">Résumé</a></p>
     </div>
-  </section>
+  </footer>
+
+</div>
 
 
 
-
-
-
-
-  <section id="project_section">
-    <div class="box_main">
-
-      <h2>development</h2>
-      <div class="navbox">
-        <a class="home">home</a>
-        <a class="about">about me</a>
-        <a class="projects">develop</a>
-        <a class="ux_projects">design</a>
-      </div>
-      <br>
-      <div class="beTogether">
-        <!-- trigger modal -->
-        <div class="popup2">
-            <img class="square_icon" id="mondoWebBtn" src="images/mondo_wireframe.png" alt="wireframe image of Mondo">
-            <span class="imgWord"><span>Android Game: Mondo is Phat<span></span>
-          <!-- mondo web modal -->
-          <div id="mondoWebModal" class="modal">
-            <!-- content -->
-            <div class="modal-content">
-              <span class="close3">&times;</span>
-                <div class="inner_modal">
-                <p><strong>Mondo is Phat</strong></p>
-                <p>A relaxing game in which Mondo eats his way towards vengeance.</p>
-                <p>Built using: Phaser, JavaScript, HTML, CSS, IntelXDK and Cordova.</p>
-                <p><a href="https://github.com/emontecalvo/mondo" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i> </a></p>
-                <p>Android App:</p>
-                <a href="https://play.google.com/store/apps/details?id=com.illudiumphosdex.mondo&hl=en" target="_blank"><img class="ux_img" src="images/mondo_live.png" alt="Image of Mondo from live site"></a>      
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-
-
-        <!-- trigger modal -->
-        <div class="popup2">
-          <img class="square_icon" id="capstoneBtn" src="images/blog_icon.png" alt="wireframe of  a daily ui">
-          <span class="imgWord"><span>Unity Daily UI<span></span>
-          <!-- chess modal -->
-          <div id="capstoneModal" class="modal">
-            <!-- content -->
-            <div class="modal-content">
-              <span class="close5">&times;</span>
-                <div class="inner_modal">
-                <p><strong>Daily UI</strong></p>
-                <p>The Daily UI challenge:  Originally I started the Daily UI project using only Sketch and limited myself to a 15-minute timebox. About 3/4 of the way through creating 15-minute designs in Sketch, I wanted to make these interactive. Looking for a way to practice my C# and Unity skills, this seemed like a good challenge and with 100 UI's, the project will be a substantial UI library.</p>
-                <p>Designed for mobile, the demo-site utilizes WebGL for desktop.</p>
-                <p>Unity/C# Code:<a href="https://github.com/emontecalvo/UnityDailyUI" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i> </a></p>
-                <p>Demo Site:<a href="http://chaosfrolic.s3-website-us-west-1.amazonaws.com/dailyui/index.html" target="_blank"><i class="fa fa-laptop fa-2x" aria-hidden="true"></i></a></p>
-                <a href="https://github.com/emontecalvo/UnityDailyUI" target="_blank"><img class="ux_img" src="images/dailyui_pic.png" alt="live screenshot of a daily ui"> </a>     
-            </div>
-          </div>
-        </div>
-      </div>
-
-              <!-- trigger modal -->
-        <div class="popup2">
-          <img class="square_icon" id="mertleBtn" src="images/uisquare.png" alt="wireframe of Daily UI">
-          <span class="imgWord"><span>React Daily UI<span></span>
-          <!-- chess modal -->
-          <div id="mertleModal" class="modal">
-            <!-- content -->
-            <div class="modal-content">
-              <span class="close7">&times;</span>
-                <div class="inner_modal">
-                <p><strong>Daily UI - React</strong></p>
-                <p>The Daily UI challenge:  Originally I started the Daily UI project using only Sketch and limited myself to a 15-minute timebox. About 3/4 of the way through creating 15-minute designs in Sketch, I wanted to make these interactive. Looking for a way to practice my React and CSS skills, this seemed like a good challenge and with 100 UI's, the project will be a substantial UI library.</p>
-                <p>Built using: React, Redux, CSS, Node.js</p>
-                <p><a href="https://github.com/emontecalvo/ReactDailyUI" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i> </a></p>
-                <p>Live Site:</p>
-                <a href="https://emontecalvo.github.io/ReactDailyUI/" target="_blank"><img class="ux_img" src="images/react-live-ui.png" alt="live image of Day 008, 404 page"> </a>     
-            </div>
-          </div>
-        </div>
-      </div>
-
-        <!-- trigger modal -->
-        <div class="popup2">
-          <img class="square_icon" id="breakrBtn" src="images/breakr_cvr.png" alt="wireframe of Breakr">
-          <span class="imgWord"><span>MERN stack:  Breakr <span></span>
-          <!-- mondo web modal -->
-          <div id="breakrModal" class="modal">
-            <!-- content -->
-            <div class="modal-content">
-              <span class="close6">&times;</span>
-                <div class="inner_modal">
-                <p><strong>Breakr </strong></p>
-                <p>A timer app, built as a team via pair-programming.</p>
-                <p>Built using: React, Redux, Node.js, Express and Mongodb.</p>
-                <p><a href="https://github.com/emontecalvo/breakr-full-stack" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i> </a></p>
-                <p>Live Site:</p>
-                <a href="https://breakr.herokuapp.com/#/" target="_blank"><img class="ux_img" src="images/breakr.png" alt="live screenshot of Breakr"></a>      
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      </div>     <!-- be together -->
-      </div><!--   box_main -->
-</section>
-
-
-
-
-<section id="ux_project_section">
-    <div class="box_main">
-      <h2>ux</h2>
-      <div class="navbox">
-        <a class="home">home</a>
-        <a class="about">about me</a>
-        <a class="projects">develop</a>
-        <a class="ux_projects">design</a>
-      </div>
-      <br>
-      <div class="beTogether">
-      <!-- trigger modal -->
-        <div class="popup">
-          <img class="square_icon" id="pomaUxBtn" src="images/poma_square.png" alt="wireframe of Poma">
-          <span class="imgWord"><span>app:  Poma <span></span>
-          <!-- poma modal -->
-          <div id="pomaModal" class="modal">
-            <!-- content -->
-            <div class="modal-content">
-              <span class="close">&times;</span>
-                <div class="inner_modal">
-                  <p><strong>Poma:  </strong></p>
-                  <p>Problem to Solve:  we have built the technology that can take a picture of produce (fruit, vegetables) from a phone and analyze how fresh it is, and even see if it is organic or not - but can a regular person understand, use and want to use the data?  Can we get results specific enough to make a difference to help stores?</p>
-                  <p>Poma - UX Report repo:</p>
-                  <a href="https://github.com/emontecalvo/poma_ux/blob/master/ux_poma_summary.pdf" target="_blank"><img class="ux_img" src="images/poma_ux_report.png" alt="screenshot of UX report"></a>
-                  <p>Poma - Wireframes repo:</p>
-                  <a href="https://github.com/emontecalvo/poma_ux/blob/master/poma_wireframes_2017.pdf" target="_blank"><img class="ux_img" src="images/poma_wireframe.png" alt="screenshot of wireframe"></a>
-                  <p>Poma - User Persona repo:</p>
-                  <a href="https://github.com/emontecalvo/poma_ux/blob/master/poma_user_personas.pdf" target="_blank"><img class="ux_img" src="images/poma_persona.png" alt="screenshot of persona document for Poma"></a>
-                  </div>
-                </div>
-            </div>
-          </div>
-
-        <!-- trigger modal -->
-        <div class="popup">
-          <img class="square_icon" id="mondoUxBtn" src="images/mondo_square.png" alt="wireframe of Mondo Is Phat">
-          <span class="imgWord"><span>game: Mondo is Phat <span></span>
-          <!-- mondo modal -->
-          <div id="mondoModal" class="modal">
-            <!-- content -->
-            <div class="modal-content">
-              <span class="close2">&times;</span>
-              <div class="inner_modal">
-                <p><strong>Mondo is Phat: </strong></p>
-                <p> A relaxing game in which Mondo eats his way towards vengeance.  Agile UX for a 5-day turnaround for the alpha release phase.</p>
-                <p>Problem to Solve:  will users be able to understand the game, enjoy it, and use the controls properly?</p>
-                <p>Mondo - UX Report repo:</p>
-                <a href="https://github.com/emontecalvo/mondo_ux/blob/master/ux_mondo_summary.pdf" target="_blank"><img class="ux_img" src="images/mondo_ux_report.png" alt="screenshot of UX report"></a>
-                <p>Mondo - Wireframes repo:</p>
-                <a href="https://github.com/emontecalvo/mondo_ux/blob/master/mondo_wireframes.pdf" target="_blank"><img class="ux_img" src="images/mondo_wireframe.png" alt="screenshot of wireframe for Mondo is Phat"></a>
-                <p>Mondo - User Persona repo:</p>
-                <a href="https://github.com/emontecalvo/mondo_ux/blob/master/mondo_user_persona.pdf" target="_blank"><img class="ux_img" src="images/mondo_persona.png" alt="screenshot of persona for Mondo Is Phat"></a>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-        
-      </div>   <!--  be together -->
-
-    </div>
-</section>
 
 
 
