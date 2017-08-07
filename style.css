@@ -12,21 +12,21 @@ body {
 }
 
 h1, h2 {
-  color: black;
+  color: #4D4D4D;
   font-weight: 100;
   font-size: 40px;
   margin: 0px;
 }
 
 h6 {
-  color: black;
+  color: #4D4D4D;
   font-weight: 100;
   font-size: 25px;
   margin: 20px;
 }
 
 p {
-  color: black;
+  color: #4D4D4D;
   font-weight: 200;
   font-size: 1.25em;
 }
@@ -39,13 +39,20 @@ p {
   display: none;
   font-weight: 400;
   font-size: 1em;
+  color: white;
 }
 
 .popup2 .square_icon img {
   text-align: center;
 }
 
-span.imgWord {
+.imgWordShow {
+  font-weight: 400;
+  font-size: 1em;
+  color: white;
+}
+
+span.imgWord, .imgWordShow {
     position: absolute;
     text-align: center;
     left: 0;
@@ -83,6 +90,7 @@ span.imgWord {
 .fa-linkedin-square:hover,
 .fa-laptop:hover {
   color: #38FAD8;
+/*  color: #2ac2af;*/
 }
 
 
@@ -119,15 +127,8 @@ a:link {
   font-size: 1.25em;
 }
 
-
-
 section {
   overflow: hidden;
-}
-
-
-.singleProject {
-/*  background-color: orange;*/
 }
 
 .popup2 {
@@ -193,7 +194,8 @@ footer a {
 }
 
 footer p {
-  color: white;
+  color: rgba(255,255,255,0.5);
+  font-weight: 400;
 }
 
 
@@ -243,7 +245,8 @@ ul .res-list-title {
 }
 
 .resume-fa {
-  color: #38FAD8;
+/*  color: #38FAD8;*/
+  color: #2ac2af;
 }
 
 .resume-btn {
@@ -305,11 +308,6 @@ ul .res-list-title {
   color: #38FAD8;
 }
 
-.mondoh2 {
-  text-align: center;
-}
-
-
 .project-text-title {
   font-weight: bolder;
   font-size: 1.1em;
@@ -320,19 +318,22 @@ ul .res-list-title {
   position: absolute;
   margin: 3%;
   top: 0;
-  left: 0;
-}
-
-.name-center {
-  text-align: center;
+  right: 0;
 }
 
 #a-daily {
-/*  color: black;*/
   font-weight: 200;
   font-size: 1em;
 }
 
+a.emailtext {
+  color: rgba(255,255,255,0.5);
+  font-weight: 200;
+}
+
+button a:link {
+  color: white;
+}
 
 
 
@@ -360,7 +361,7 @@ ul .res-list-title {
     margin-left: 20%;
   }
 
-  .imgWord {
+  .imgWord, .imgWordShow {
     font-size: .8em;
   }
 
@@ -434,8 +435,8 @@ ul .res-list-title {
     padding: 15px 5px;
   }
 
-  .imgWord {
-    font-size: .4em;
+  .imgWord, .imgWordShow {
+    font-size: .3em;
   }
 
   span.imgWord {
@@ -476,12 +477,20 @@ ul .res-list-title {
   }
 
   .emc-logo img {
-    max-width: 45%;
+    margin-top: 0;
+    margin-left: 40%;
+    margin-right: 0;
+    margin-bottom: 5%;
+    max-width: 60%;
     height: auto;
   }
 
-  .name-center {
-    margin-top: 20%;
+  .name-center, .mondoh2 {
+    margin-top: 40%;
+  }
+
+  .mondoh2 {
+    font-size: 1.5em;
   }
 
   a.emailtext {
