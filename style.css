@@ -125,6 +125,7 @@ section {
   overflow: hidden;
 }
 
+
 .singleProject {
 /*  background-color: orange;*/
 }
@@ -170,6 +171,7 @@ section {
 
 .beTogether {
   display: inline-flex;
+  margin-left: 5%;
 }
 
 
@@ -182,7 +184,7 @@ footer {
   margin-top: 300px;
   width: 100%;
   display: inline-flex;
-  height: 400px;
+  height: 450px;
   background: linear-gradient(to bottom,#0951EB,#a577ef);
 }
 
@@ -318,7 +320,11 @@ ul .res-list-title {
   position: absolute;
   margin: 3%;
   top: 0;
-  right: 0;
+  left: 0;
+}
+
+.name-center {
+  text-align: center;
 }
 
 #a-daily {
@@ -373,13 +379,11 @@ ul .res-list-title {
   .project-chunk {
     display: block;
   }
+}
 
-  .emc-logo {
-    margin: 1%;
-  }
-
+@media screen and (max-width: 800px) {
   .emc-logo img {
-    max-width: 60%;
+    max-width: 70%;
     height: auto;
   }
 }
@@ -391,11 +395,7 @@ ul .res-list-title {
 
 
 
-
-
-
-
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .box_main {
     font-size: 0.9em;
   }
@@ -446,7 +446,8 @@ ul .res-list-title {
 /*    display: inline-block;*/
     display: flex;
     flex-direction: column-reverse;
-    margin-top: 100px;
+    margin-top: 80px;
+    height: 350px;
   }
 
   .contact {
@@ -479,6 +480,14 @@ ul .res-list-title {
     height: auto;
   }
 
+  .name-center {
+    margin-top: 20%;
+  }
+
+  a.emailtext {
+    font-size: 0.7em;
+  }
+
 }
 
 @media screen and (max-width: 200px) {
@@ -509,6 +518,16 @@ ul .res-list-title {
 
   .project-text {
     font-size: 0.8em;
+  }
+
+  footer {
+    margin-top: 300px;
+    height: 350px;
+  }
+
+
+  a.emailtext {
+    font-size: 0.45em;
   }
 }
 
