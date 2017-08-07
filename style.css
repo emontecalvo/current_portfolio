@@ -113,11 +113,13 @@ a:hover {
   cursor: pointer;
 }
 
-a {
+a:link {
   color: rgba(0,0,0,0.5);;
   font-weight: 200;
   font-size: 1.25em;
 }
+
+
 
 section {
   overflow: hidden;
@@ -319,8 +321,11 @@ ul .res-list-title {
   right: 0;
 }
 
-
-
+#a-daily {
+/*  color: black;*/
+  font-weight: 200;
+  font-size: 1em;
+}
 
 
 
