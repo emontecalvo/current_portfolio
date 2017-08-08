@@ -308,6 +308,19 @@ ul .res-list-title {
   color: #38FAD8;
 }
 
+.h2-project {
+  margin-left: 5%;
+}
+
+.project-sum-links {
+  text-align: right;
+}
+
+.project-sum-title {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
 .project-text-title {
   font-weight: bolder;
   font-size: 1.1em;
@@ -379,6 +392,10 @@ button a:link {
 
   .project-chunk {
     display: block;
+  }
+
+  .footer-links a {
+    font-size: 1em;
   }
 }
 
