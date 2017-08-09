@@ -288,6 +288,7 @@ ul .res-list-title {
   margin: 5%;
   background-color: #0951EB;
   padding: 2%;
+/*  padding-top: 150px;*/
 }
 
 .project-summary p {
@@ -348,6 +349,23 @@ button a:link {
   color: white;
 }
 
+/* header for projects*/
+.header-projects {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    bottom: auto;
+    margin-left: 5px;
+    background-color: white;
+}
+
+.mondoh2 {
+  padding-top: 200px;
+}
+
+.proj-header-img {
+  max-width: 50px;
+}
 
 
 
@@ -395,6 +413,10 @@ button a:link {
   }
 
   .footer-links a {
+    font-size: 1em;
+  }
+
+  .header-projects a {
     font-size: 1em;
   }
 }
