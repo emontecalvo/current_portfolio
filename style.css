@@ -272,10 +272,11 @@ ul .res-list-title {
 
 .project-text {
   font-size: 1.2em;
-  min-width: 50%;
+  width: 50%;
 }
 
 .project-img {
+  text-align: right;
   width: 50%;
 }
 
