@@ -17,13 +17,6 @@ h1, h2 {
   margin: 0px;
 }
 
-h6 {
-  color: #4D4D4D;
-  font-weight: 100;
-  font-size: 25px;
-  margin: 20px;
-}
-
 p {
   color: #4D4D4D;
   font-weight: 200;
@@ -73,15 +66,6 @@ span.imgWord, .imgWordShow {
 /* end up text popup css */
 /* * * * * * * * * */
 
-.home,
-.about,
-.projects,
-.ux_projects {
-  color: #CC96F8;
-  padding: 20px;
-}
-
-
 
 .emailtext:hover,
 .fa-github:hover,
@@ -89,18 +73,12 @@ span.imgWord, .imgWordShow {
 .fa-linkedin-square:hover,
 .fa-laptop:hover {
   color: #38FAD8;
-/*  color: #2ac2af;*/
 }
 
 
 .box_main {
   margin-top: 5%;
   margin-bottom: 10%;
-  margin-left: 5%;
-}
-
-.box_main2 {
-  margin-top: 5%;
   margin-left: 5%;
 }
 
@@ -126,10 +104,6 @@ a:link {
   font-size: 1.25em;
 }
 
-section {
-  overflow: hidden;
-}
-
 .popup2 {
   max-width: 80%;
   border-radius: 4px;
@@ -143,16 +117,12 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-
-
-
 .popup2:hover {
   background: linear-gradient(to bottom right,#B0C7F9,#1F22C0);
   cursor: pointer;
   transform: scale(1.1);
   transition: all 0.3s ease-in-out;
 }
-
 
 .popup2 img {
   max-width: 100%;
@@ -165,16 +135,10 @@ section {
   opacity: 0.5;
 }
 
-.inner_modal img {
-  width: 50%;
-}
-
 .beTogether {
   display: inline-flex;
   margin-left: 5%;
 }
-
-
 
 .content {
 /*  min-height: calc(100vh - 300px); *//*min-height calc for the sticky-footer*/
@@ -197,7 +161,6 @@ footer p {
   color: rgba(255,255,255,0.5);
   font-weight: 400;
 }
-
 
 .contact {
   width: 50%;
@@ -383,11 +346,15 @@ button a:link {
 
 
 
-
+@media screen and (max-width: 1600px) {
+  footer {
+    margin-top: 500px;
+  }
+}
 
 @media screen and (max-width: 1300px) {
   footer {
-    margin-top: 400px;
+    margin-top: 600px;
   }
 }
 
@@ -443,10 +410,6 @@ button a:link {
     font-size: 30px;
   }
 
-  .inner_modal img {
-    width: 100%;
-  }
-
   .emailtext {
     font-size: 13px;
   }
@@ -463,14 +426,6 @@ button a:link {
   .popup2 {
     width: 85%;
     margin-left: 5%;
-  }
-
-  .home,
-  .about,
-  .projects,
-  .ux_projects {
-    font-size: 20px;
-    padding: 15px 5px;
   }
 
   .imgWord, .imgWordShow {
